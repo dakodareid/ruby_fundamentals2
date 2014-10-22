@@ -12,3 +12,7 @@ end
 #2.
 students.merge!(cohort4: "4")
 puts students
+
+#3.
+puts students.keys
+
