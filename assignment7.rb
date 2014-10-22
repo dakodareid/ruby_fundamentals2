@@ -10,9 +10,13 @@ students.each do |key, value|
 end
 
 #2.
-students.merge!(cohort4: "4")
+students.merge!(cohort4: 4)
 puts students
 
 #3.
 puts students.keys
 
+#4.
+students.each { |key, value|
+	puts value * 15 /10
+}
