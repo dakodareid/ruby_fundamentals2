@@ -24,3 +24,13 @@ students.each { |key, value|
 #5. 
 students.delete(:cohort2)
 puts students
+
+#6.
+
+sum = 0
+students.each do |key, value|
+	sum += value
+end
+
+puts sum
+
